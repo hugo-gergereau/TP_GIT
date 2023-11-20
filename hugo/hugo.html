@@ -8,46 +8,127 @@
 </head>
 <body>
 <!-----------MENU------------>
-    <div id="services">
-        <div class="container">
+
+
+
+<div class="container">
+    <nav>
+        <ul class="menu">
+            <li><a href="#Accueil">Accueil</a></li>
+            <li><a href="#Melvyn">Blog de Melvyn</a></li>
+            <li><a href="#Andilath">Blog de Andilath</a></li>
+            <li><a href="#Ruchnelle">Blog de Ruchnelle</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+<br><br>
+<div class="container_intro">
+    <div class="container_titre_intro">
+        <p class="texte_titre_intro">Introduction du model OSI</p>
+    </div>
+    <br>
+    <div class="container_texte_intro">
+        <p class="texte_intro">Le modèle OSI (Open Systems Interconnection) est un cadre conceptuel qui définit les fonctions de communication d'un système de télécommunication ou d'un réseau informatique. 
+            Il a été développé par l'ISO (International Organization for Standardization) pour servir de référence universelle pour la conception et la compréhension des réseaux.
+            <br><br>
+            Le modèle OSI est divisé en sept couches, chacune représentant un ensemble spécifique de fonctions liées à la communication. 
+            De la couche physique à la couche application, voici les sept couches du modèle OSI :</p>
+    </div>
+</div>
+
+
+<div id="container_couche">
+    <div class="container">
             
-            <div class="work-list">
-                <div class="work">
-                    <img src="Images/ASSITANCE_INFO.png" alt="">
-                    <div class="layer">
-                        <div class="img-container">
-                            <img src="Images_2/logo_assitance.png" class="logo_work">
-                        </div>
-                        <h2>Assitance informatique</h2>
-                        <p>je peux trouver et resoudre un probleme en informatique que se sois hardaware ou software</p>
-                        
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="Images/SERVEUR.png" alt="">
-                    <div class="layer">
-                        <div class="img-container">
-                            <img src="Images_2/logo_hyperviseur.png" class="logo_work">
-                        </div>
-                        <h2>Gestion d'hyperviseur </h2>
-                        <p>je suis en mesure de gerer un hyperviseur, faire la maintenance en cas de panne</p>
-                        
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="Images/HOMME_BAIE_RESEAU.png" alt="">
-                    <div class="layer">
-                        <div class="img-container">
-                            <img src="Images_2/logo_reseau.png" class="logo_work">
-                        </div>
-                        <h2>Gestion du réseau</h2>
-                        <p>je suis capable de resoudre des probleme et des souci de sécuritée dans un réseau</p>
-                        
-                    </div>
+        <div class="couche-list">
+            <div class="couche">
+                <h2 class="num_couche">Couche N°1</h2>
+                <p class="sous_titre_couche">Couche Physique <br> (Physical Layer) </p>
+                <div class="layer">
+                    <h2 class="titre_couche">Couche N°1</h2>
+                    <p class="texte_couche">Définit les caractéristiques physiques du support de transmission, 
+                        comme les câbles, les signaux électriques, etc.</p>
                 </div>
             </div>
-            <a href="https://en.wikipedia.org/wiki/OSI_model" class="btn">Voir plus </a>
+
+
+            <div class="couche">
+                <h2 class="num_couche">Couche N°2</h2>
+                <p class="sous_titre_couche">Couche Liaison de Données <br>(Data Link Layer)</p>
+                <div class="layer">
+                    <h2 class="titre_couche">Couche N°2</h2>
+                    <p class="texte_couche">Gère l'accès au support de transmission, 
+                        détecte et corrige les erreurs au niveau physique.</p>
+                        
+                </div>
+            </div>
+
+
+            <div class="couche">
+                <h2 class="num_couche">Couche N°3</h2>
+                <p class="sous_titre_couche">Couche Réseau <br>(Network Layer)</p>
+                <div class="layer">
+                    <h2 class="titre_couche">Couche N°3</h2>
+                    <p class="texte_couche">Fournit des mécanismes de routage pour acheminer 
+                        les paquets de données entre différents réseaux.</p>
+                </div>
+            </div>
+
+
+            <div class="couche">
+                <h2 class="num_couche">Couche N°4</h2>
+                <p class="sous_titre_couche">Couche Transport<br> (Transport Layer)</p>
+                <div class="layer">
+                    <h2 class="titre_couche">Couche N°4</h2>
+                    <p class="texte_couche">Assure le transport fiable des données d'une extrémité à l'autre, 
+                        gère le contrôle de flux et la correction d'erreurs.</p>
+                </div>
+            </div>
+
+
+            <div class="couche">
+                <h2 class="num_couche">Couche N°5</h2>
+                <p class="sous_titre_couche">Couche Session <br>(Session Layer)</p>
+                <div class="layer">
+                    <h2 class="titre_couche">Couche N°5</h2>
+                    <p class="texte_couche">Établit, gère et termine les sessions de communication 
+                        entre deux applications.</p>
+                </div>
+            </div>
+
+
+            <div class="couche">
+                <h2 class="num_couche">Couche N°6</h2>
+                <p class="sous_titre_couche">Couche Présentation<br> (Presentation Layer)</p>
+                <div class="layer">
+                    <h2>Couche N°6</h2>
+                    <p class="texte_couche">Gère la syntaxe de données, la compression, la cryptographie et 
+                        la conversion des données pour assurer une communication entre systèmes hétérogènes.</p>
+                </div>
+            </div>
+
+
+            <div class="couche">
+                <h2 class="num_couche">Couche N°7</h2>
+                <p class="sous_titre_couche">Couche Application<br>(Application Layer)</p>
+                <div class="layer">
+                    <h2 class="titre_couche">Couche N°7</h2>
+                    <p class="texte_couche">Fournit des interfaces réseau pour les applications utilisateur, 
+                        gère les services réseau tels que le courrier électronique, le transfert de fichiers, etc.</p>
+                </div>
+            </div>
+
+
+            <div class="couche">
+                <h2 class="num_couche">WIKI model OSI</h2>
+                <div class="layer">
+                    <a href="https://en.wikipedia.org/wiki/OSI_model" class="btn">   Voir plus  </a>
+                </div>
+            </div>
         </div>
     </div>
+</div>
 </body>
 </html>

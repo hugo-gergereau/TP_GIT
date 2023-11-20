@@ -1,117 +1,162 @@
 body{
     background-color: #110e0eff;
 }
-#portfolio {
-    padding: 50px 0;
+
+
+
+
+/*----------MENU----------*/
+.container {
+    padding: 15px;
+    position: relative;
+    margin-top: 0px;
 }
 
-.work-list {
+.menu {
+    background-color:#333;
+    border-radius: 8px;
+    margin: auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+}
+
+nav {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0; 
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+a:hover{
+    color: #ff004f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+}
+
+
+
+
+/*--------INTRODUCTION--------*/
+.container_intro {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+    background-color:#1a1a1a;
+    border-radius: 15px;
+    width: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.container_titre_intro {
+    
+    text-decoration: underline;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+}
+
+.container_texte_intro {
+    width: 90%;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+}
+
+
+
+
+/*----------COUCHE MODEL OSI-------*/
+.couche-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
 
-.work {
+.couche {
+    width: auto;
+    height: 300px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    background:  rgba(46, 46, 254, 0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+    text-align: center;
 }
 
-.work img {
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.5s;
+.num_couche{
+    color:#fff;
+    font-size: 30px;
+}
+
+.sous_titre_couche{
+    color: #fff;
+    font-size: 25px;
+}
+
+.titre_couche{
+    font-size: 30px;
+}
+
+.texte_couche{
+    font-size: 25px;
 }
 
 .layer {
     width: 100%;
-    height: 0;
+    height: 0%;
     background: #ff004f;
     border-radius: 10px;
     position: absolute;
     left: 0;
     bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
     text-align: center;
     font-size: 16px;
-    transition: height 0.5s;
-    
-}
-.layer h2{
-    position: relative;
-    left: -30px;
-}
-.layer p{
-    position: relative;
-    left: -30px;
-    width: 80%;
+    transition: height 0.7s;
 }
 
-.logo_work{
-    height: 50%;
-    width: auto;
-}
-.img-container {
-    position: relative;
-    max-width: 300px; /* Largeur maximale du conteneur */
-    height: 300px;     /* Hauteur ajustée automatiquement */
-    display: block;   /* Assure que les marges ne perturbent pas la mise en page */
-    margin: 0 auto;   /* Centre l'image horizontalement si elle est dans un bloc de largeur fixe */
-    overflow: hidden; /* Cache le contenu excédentaire de l'image qui dépasse le conteneur */
-    left: -35px;
-}
-
-  .img-container .logo_work {
-    margin-top: 3%;
-    margin-left: 32%;
-    width: 40%; /* L'image remplit tout le conteneur */
-    height: auto; /* La hauteur s'ajuste automatiquement pour conserver les proportions */
-}
-
-.layer h2 {
-    margin-bottom: 30px;
-}
-
-.layer a {
-    margin-top: 30px;
-    color: #080808;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    background: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    text-align: center;
-}
-
-.work:hover img {
-    transform: scale(1.1);
-}
-
-.work:hover .layer {
+.couche:hover .layer {
     height: 100%;
 }
 
+
 .btn {
-    display: block;
-    margin: 50px auto;
-    width: fit-content;
-    border: 1px solid #ff004f;
-    padding: 14px 50px;
-    border-radius: 6px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    transition: background 2.25s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     color: #fff;
+    background-color:#383838;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
     text-decoration: none;
-    transition: background 0.75s;
+    font-size: 35px;
 }
 
 .btn:hover {
-    background: #ff004f;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+    text-shadow: 0px 0px 0px rgba(0, 0, 0);
+    color: #fff;
 }
