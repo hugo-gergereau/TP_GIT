@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+body{
+	background-color: rgba(74, 74, 75, 0.338);
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+nav .onglets{
+	margin-top: 35px;
+}
+nav .onglets a{
+	text-decoration: none;
+	color: rgb(148, 84, 0);
+	margin-right: 10px;
+}
+
+h1{
+       color: rgb(0, 0, 0);
+       letter-spacing: 10px;
+       text-align: 10px;
+       border-radius: 150px;
+}
+
