@@ -1,3 +1,7 @@
 body{ background-color: blue (4, 5, 6); font-family: comic sans MS ; color: black;}
 h1{ text-decoration: underline }
-h1. titre {font-size: 60px; text-align: center ; padding-left: 1OOpx; font-family: comic sans MS , "Arial black",calibri}
+h1.titre {font-size: 60px; text-align: center ; padding-left: 1OOpx; font-family: comic sans MS , "Arial black",calibri} 
+h2{ text-decoration: underline }
+h3{ text-decoration: underline }
+h4{ text-decoration: underline }
+img{ width: 300px; height: 200px; }
