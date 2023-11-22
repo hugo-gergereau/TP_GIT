@@ -1,50 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-body{
-	background-color: rgba(74, 74, 75, 0.338);
-}
-
-nav {
+.container {
+	padding: 15px;
+	position: relative;
+	margin-top: 0px;
+    }
+    
+    .menu {
+	background-color:#333;
+	border-radius: 8px;
+	margin: auto;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+    }
+    
+    nav {
+	width: max-content;
 	display: flex;
+	align-items: center;
+	justify-content: center; 
 	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-nav .onglets{
-	margin-top: 35px;
-}
-nav .onglets a{
+    }
+    
+    nav ul {
+	list-style: none;
+	margin: 0; 
+	padding: 0; 
+    }
+    
+    nav ul li {
+	display: inline-block;
+	margin: 10px 15px;
+    }
+    
+    nav ul li a {
+	color: #dad9d9;
 	text-decoration: none;
-	color: rgb(148, 84, 0);
-	margin-right: 10px;
-}
+	font-size: 18px;
+	position: relative;
+    }
+    a:hover{
+	color: #ff004f;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+    } 
 
-h1{
-       color: rgb(0, 0, 0);
-       letter-spacing: 10px;
-       text-align: 10px;
-       border-radius: 150px;
-}
-
-.articles{
+body {
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #039a88;
+	color: #000000;
+    }
+    
+    header {
+	background-color: #039a88;
+	color: #000000;
+	text-align: center;
+	padding: 20px;
+    }
+    
+    header h1 {
+	margin: 0;
+    }
+    
+    section {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #9d9d9d;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    article {
+	margin-bottom: 30px;
+    }
+    
+    article h2 {
+	color: #000000;
+    }
+    
+    aside {
+	width: 300px;
+	float: right;
 	margin-top: 30px;
-}
-
-.articles .article{
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom:  30px;
-}
-
-.articles .article .left img{
-	height:  300px;
-	width: 500px;
-}
-.articles .article .right{
-	max-width: 50px;
-	margin-left: 40px;
-}
-.articles .article .right{
-	max-width: 50px;
-	margin-left: 40px;
-
-}
+	padding: 20px;
+	background-color: #9d9c9c;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    footer {
+	background-color: #212121;
+	color: #8b8787;
+	text-align: center;
+	padding: 0px;
+	position: fixed;
+	bottom: 0;
+	width: 76%;
+    }
+    
+    ul {
+	list-style-type: none;
+	padding: 0;
+    }
+    
+    ul li {
+	margin-bottom: 10px;
+    }
+    
+    img {
+	max-width: 60%;
+	height: auto;
+	border-radius: 5px;
+    }
+    
