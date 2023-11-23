@@ -16,6 +16,15 @@ body{
     margin-top: 0px;
 }
 
+<<<<<<< HEAD
+=======
+.container {
+    padding: 15px;
+    position: relative;
+    margin-top: 0px;
+}
+
+>>>>>>> 687987e4546238d612bdf5144ad8cdd5689e8584
 .menu {
     background-color:#333;
     border-radius: 8px;
@@ -52,4 +61,8 @@ nav ul li a {
 a:hover{
     color: #ff004f;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+<<<<<<< HEAD
 } 
+=======
+} 
+>>>>>>> 687987e4546238d612bdf5144ad8cdd5689e8584
