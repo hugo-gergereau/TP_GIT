@@ -1,0 +1,53 @@
+secti.to.page{
+    background: url(OIP.jpg\ paris.jpg);
+}
+secti.to.page{ 
+    background: url(c:\Users\rikik\OneDrive\Documents\TP_GIT\TP_GIT\riki\OIP.jpg.essais.jpg);
+}
+.photo{ 
+    width: 250px;
+    height: auto;
+}
+.container {
+    padding: 15px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.menu {
+    background-color:#333;
+    border-radius: 8px;
+    margin: auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+}
+
+nav {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0; 
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+a:hover{
+    color: #ff004f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+} 
